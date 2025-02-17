@@ -1,0 +1,56 @@
+<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10\">
+<FIToFICstmrCdtTrf> <GrpHdr> <MsgId>SIMVMY2L/201117/CCT/EUR/001</MsgId>
+<CreDtTm>2024-11- 17T02:45:10</CreDtTm> <NbOfTxs>1</NbOfTxs>
+<CtrlSum>10000.00</CtrlSum> <SttlmInf>
+<SttlmMtd>COVE</SttlmMtd> <InstgRmbrsmntAgt>
+<FinInstnId> <BICFI>SIMVMY2L</BICFI>
+</FinInstnId> </InstgRmbrsmntAgt>
+<InstdRmbrsmntAgt> <FinInstnId>
+<BICFI>TRWIBEBI</BICFI> </FinInstnId>
+</InstdRmbrsmntAgt> </SttlmInf>
+<InstgAgt> <FinInstnId>
+<BICFI>SIMVMY2L</BICFI> </FinInstnId>
+</InstgAgt> <InstdAgt>
+<FinInstnId> <BICFI>TRWIBEBI</BICFI>
+</FinInstnId>
+</InstdAgt> </GrpHdr>
+<CdtTrfTxInf> <PmtId>
+<InstrId>fb8f1c55-66d1-44e2-a063-061d565b1687</InstrId>
+<EndToEndId>EESING/02831595/20241117</EndToEndId>
+<TxId>241117/AVR/SING/BAB/10K/EUR</TxId>
+</PmtId> <PmtTpInf>
+<InstrPrty>NORM</InstrPrty> </PmtTpInf>
+<IntrBkSttlmAmt Ccy=\"EUR\">10000.00</IntrBkSttlmAmt>
+<IntrBkSttlmDt>2024-11- 17</IntrBkSttlmDt> <ChrgBr>SHAR</ChrgBr>
+<Dbtr>
+<Nm>SINGPOLI INVESTMENT BANK LIMITED</Nm> <PstlAdr>
+<StrtNm>BLOCK 4</StrtNm>
+<BldgNb>FLOOR 11(A), UNIT B6</BldgNb> <PstCd>T0L1Y0</PstCd>
+<TwnNm>LABUAN</TwnNm>
+<Ctry>MY</Ctry>
+<AdrLine>MAIN OFFICE TOWER JALAN MERDEKA FINANCIAL
+PARK</AdrLine>
+</PstlAdr>
+</Dbtr> <DbtrAcct>
+<Id>
+<Othr>
+</Id> </DbtrAcct>
+<Id>241611001001</Id> </Othr>
+<DbtrAgt> <FinInstnId>
+<BICFI>SIMVMY2LXXX</BICFI> </FinInstnId>
+</DbtrAgt> <CdtrAgt>
+<FinInstnId> <BICFI>TRWIBEBIXXX</BICFI>
+</FinInstnId> </CdtrAgt>
+<Cdtr>
+<Nm>Gulf Biotech GmbH</Nm> <PstlAdr>
+<StrtNm>Rue du Tröne 100</StrtNm> <BldgNb>3rd floor</BldgNb>
+<PstCd>1050</PstCd> <TwnNm>Brussels</TwnNm>
+<Ctry>BE</Ctry> </PstlAdr> </Cdtr>
+<CdtrAcct> <Id>
+<Othr> <Id>888116707</Id>
+</Othr> </Id>
+</CdtrAcct>
+<Purp> <Cd>GDDS</Cd>
+</Purp> <RmtInf>
+<Ustrd>Loan for Investment</Ustrd> </RmtInf>
+</CdtTrfTxInf> </FIToFICstmrCdtTrf>
